@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JavaScript Playground</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+  <h1>Welcome to the JavaScript Playground!</h1>
+
+  <!-- Event Handling Section -->
+  <section>
+<div class="event-handlers">
+  <button id="clickBtn" class="btn">Click Me</button>
+
+  <div id="hoverBox" class="hover-box">Hover Over Me</div>
+
+  <div class="input-group">
+    <input type="text" id="keyInput" placeholder="Type something..." />
+    <button id="secretBtn" class="btn">Double Click Me</button>
+  </div>
+</div>
+  </section>
+
+  <!-- Interactive Elements -->
+  <section>
+    <h2>2. Interactive Elements</h2>
+    <button id="colorBtn">Change My Color</button>
+
+    <div class="gallery">    
+        <img id="galleryImage" src="https://images.pexels.com/photos/6193661/pexels-photo-6193661.jpeg?auto=compress&cs=tinysrgb&w=600" width="400px" height="200px" alt="Gallery" />
+        <br><br>
+        <button id="nextImageBtn">Next Image</button>
+    </div>
+        <br>
+    <div class="gallery2">
+        <img id="galleryImage2" src="https://images.pexels.com/photos/8947770/pexels-photo-8947770.jpeg?auto=compress&cs=tinysrgb&w=600" width="400px" height="200px" alt="Gallery 2" />
+        <br><br>
+        <button id="nextImageBtn2">Next Image</button>
+    </div>
+    <br>
+    <div class="gallery3">
+        <img id="galleryImage3" src="https://images.pexels.com/photos/2863263/pexels-photo-2863263.jpeg?auto=compress&cs=tinysrgb&w=600" width="400px" height="200px" alt="Gallery 3" />
+        <br><br>
+        <button id="nextImageBtn3">Next Image</button>
+
+    <div class="tabs">
+      <button class="tab" data-tab="tab1">Tab 1</button>
+      <button class="tab" data-tab="tab2">Tab 2</button>
+    </div>
+  </section>
+
+  <!-- Form Validation -->
+  <section>
+    <h2>3. Form Validation</h2>
+    <form id="signupForm">
+      <input type="text" id="name" placeholder="Name (required)" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="password" placeholder="Password (min 8 chars)" required />
+      <p id="feedback" class="feedback"></p>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+<script src="script.js"></script>
+</body>
+</html>
